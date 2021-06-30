@@ -1,0 +1,2218 @@
+{
+  "intents": [
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "أهلا"
+        },
+        {
+          "text": "أهلين"
+        },
+        {
+          "text": "الو"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "اهلين"
+        },
+        {
+          "text": "مرحبا"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "هلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب_وسلام",
+      "examples": [
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "سسلام"
+        },
+        {
+          "text": "سلام"
+        },
+        {
+          "text": "سلان"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "توديع",
+      "examples": [
+        {
+          "text": "الى اللقاء"
+        },
+        {
+          "text": "باي"
+        },
+        {
+          "text": "سلام"
+        },
+        {
+          "text": "فمان الله"
+        },
+        {
+          "text": "مع السلامة"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "رفض",
+      "examples": [
+        {
+          "text": "لا"
+        },
+        {
+          "text": "لا شكرا"
+        },
+        {
+          "text": "نو"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "كيف_الحال",
+      "examples": [
+        {
+          "text": "ايش مسوي؟"
+        },
+        {
+          "text": "كيف الحال؟"
+        },
+        {
+          "text": "كيف حالك؟"
+        },
+        {
+          "text": "كيفك؟"
+        },
+        {
+          "text": "ما الأخبار؟"
+        },
+        {
+          "text": "ماهو حالك؟"
+        },
+        {
+          "text": "وش مسوي؟"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "موافقة",
+      "examples": [
+        {
+          "text": "القائمة"
+        },
+        {
+          "text": "اوك"
+        },
+        {
+          "text": "تفضل"
+        },
+        {
+          "text": "تم"
+        },
+        {
+          "text": "تمام"
+        },
+        {
+          "text": "حاضر"
+        },
+        {
+          "text": "حسنا"
+        },
+        {
+          "text": "طيب"
+        },
+        {
+          "text": "موافق"
+        },
+        {
+          "text": "موافقة"
+        },
+        {
+          "text": "موافقه"
+        },
+        {
+          "text": "نعم"
+        },
+        {
+          "text": "نمام"
+        },
+        {
+          "text": "يلا"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "الأسف",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "آسف",
+          "synonyms": [
+            "اعتذر",
+            "انا آسف",
+            "سوري",
+            "متأسف",
+            "نأسف"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "الشكر",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "تسلم",
+          "synonyms": [
+            "يسلمو"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "شكرا",
+          "synonyms": [
+            "الشكر لك",
+            "ثانكس",
+            "ثانكيو",
+            "مشكور"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "يعطيك العافية",
+          "synonyms": [
+            "الله يعطيك العافية"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "تقييم",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "راضي",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "‎‫‎‫‎‫‎‫‎‫‎‫‎‫‎‫ر‬‎ا‬‎ض‬‎ي‬‎ ‬‎ج‬‎د‬‎ا‬‎",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "مستاء",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "مستاء جدا",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "توديع",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "باي",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "مع السلامة",
+          "synonyms": [
+            "إلى اللقاء"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "مسارات",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "مسارات",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "parent": "node_6_1625055917237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_10_1625055998745",
+      "previous_sibling": "node_1_1625055977879"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مع السلامة، ياهلا فيك تشرفنا بمعرفتك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "قيّمني:\n- راضي جدًا\n- راضي\n- مستاء\n- مستاء جدًا"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#توديع",
+      "dialog_node": "node_10_1625057437120",
+      "previous_sibling": "node_6_1625057255576"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1625058983431",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_10_1625059047908"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625058983431",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_10_1625059115439",
+      "previous_sibling": "node_10_1625059047908"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625058983431",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_10_1625059173828",
+      "previous_sibling": "node_10_1625059115439"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625058983431",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_10_1625059206619",
+      "previous_sibling": "node_10_1625059173828"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1625059239458",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_10_1625059463570",
+      "previous_sibling": "node_3_1625059431440"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1625055057176",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_1_1625055166566"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1625055917237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_1_1625055977879"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_1_1625057168930",
+      "previous_sibling": "node_4_1625056678348"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625055194162",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_1_1625058203502",
+      "previous_sibling": "node_2_1625058181976"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056032340",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_1_1625058420332",
+      "previous_sibling": "node_2_1625056081073"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مابيننا يالغالي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625056290774"
+      },
+      "conditions": "@الأسف:آسف",
+      "dialog_node": "node_1_1625058597109",
+      "previous_sibling": "node_9_1625056576834"
+    },
+    {
+      "type": "standard",
+      "parent": "node_9_1625059239458",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_1_1625059289915"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625055917237"
+      },
+      "conditions": "@sys-number:3",
+      "dialog_node": "node_1_1625060105011",
+      "previous_sibling": "node_8_1625060077580"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تم استقبال التقييم، تسلم يالغالي من ذوقك\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/smiling-face-with-hearts.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1625057437120",
+      "conditions": "@تقييم:راضي || @تقييم:(‎‫‎‫‎‫‎‫‎‫‎‫‎‫‎‫ر‬‎ا‬‎ض‬‎ي‬‎ ‬‎ج‬‎د‬‎ا‬‎)",
+      "dialog_node": "node_1_1625070542202"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تم استقبال التقييم، آسفين جدًا ونوعدك بخدمة أفضل\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/pleading-face.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_10_1625057437120",
+      "conditions": "@تقييم:مستاء || @تقييم:(مستاء جدا)",
+      "dialog_node": "node_1_1625070574214",
+      "previous_sibling": "node_1_1625070542202"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مسارات التدريب:\nعندنا 5 مسارات تشتغل على الروبوت عشان يكتمل:\n1. الهندسة الميكانيكية\n2. الهندسة الكهربائية\n3. تطبيقات انترنت الاشياء\n4. الذكاء الاصطناعي\n5. الهندسة الصناعية وهندسة النظم\n اختار رقم  من هالمسارات لو حاب تعرف عنها أكثر."
+              },
+              {
+                "text": " اكتب \"0\" للرجوع إلى القائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625053453830",
+      "conditions": "@sys-number:2",
+      "dialog_node": "node_2_1625055057176",
+      "previous_sibling": "node_4_1625054914931"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625056032340",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_2_1625056081073",
+      "previous_sibling": "node_9_1625056062651"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_2_1625056554593"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054882256",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_2_1625057717514"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625055194162",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_2_1625058181976",
+      "previous_sibling": "node_6_1625055347075"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625055194162",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_2_1625058224909",
+      "previous_sibling": "node_1_1625058203502"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625055271360",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_2_1625058305000",
+      "previous_sibling": "node_8_1625058281873"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1625059239458",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_2_1625059387538",
+      "previous_sibling": "node_1_1625059289915"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625058983431"
+      },
+      "conditions": "@sys-number:3",
+      "dialog_node": "node_2_1625060371657",
+      "previous_sibling": "node_9_1625060350146"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/person-mechanic.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "المهندس الميكانيكي مسؤول عن تصنيع قطع الروبوت، ذراع، رأس، هيكل وكل اللي يخطر على بالك...\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "اللي عليهم أنهم يصممون القطع هذي باستخدام برامج التصميم الثلاثي الأبعاد، وبعد كذا راح يتم صناعة هذي القطع باستخدام تقنية \"الطباعة ثلاثية الابعاد\".\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number:1",
+      "dialog_node": "node_3_1625055194162",
+      "previous_sibling": "node_1_1625055166566"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056112747",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_3_1625058540054",
+      "previous_sibling": "node_9_1625058520635"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "آلية التدريب والحضور:"
+              },
+              {
+                "text": "التدريب أون لاين وفيه حضور للمقرات لو أنت حاب، ونقطة مهمة اللي هي أن التدريب على رأس العمل، يعني المتدرب يتعلم ذاتيًّا من خلال مصادر تعلم يقدمها المهندسين"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625053453830",
+      "conditions": "@sys-number:3",
+      "dialog_node": "node_3_1625058983431",
+      "previous_sibling": "node_2_1625055057176"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1625059239458",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_3_1625059431440",
+      "previous_sibling": "node_2_1625059387538"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "بخير الحمدلله عساك بخير"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "#كيف_الحال",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625060432823",
+      "previous_sibling": "node_7_1625006000315"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1625059173828",
+      "dialog_node": "node_3_1625070458650"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1625053453830",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_4_1625054882256"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تعريف بالتدريب:\nالتدريب عندنا عبارة عن صناعة وبرمجة روبوتات من الألف إلى الياء"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625053453830",
+      "conditions": "@sys-number:1",
+      "dialog_node": "node_4_1625054914931",
+      "previous_sibling": "node_4_1625054882256"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/person-mechanic.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "المهندس الكهربائي مسؤول عن تصميم وتركيب الدوائر الكهربائية والمحركات، بشكل عام نقدر نقول مسؤوليته تحريك الروبوت.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number:2",
+      "dialog_node": "node_4_1625055271360",
+      "previous_sibling": "node_3_1625055194162"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/48/000000/man-technologyst.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "خبير الذكاء الاصطناعي هو المسؤول عن برمجة الروبوت عشان يصير ذكي، يتعرف على الأشخاص ويتفاعل معهم وكمان يتعرف على المكان."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number:4",
+      "dialog_node": "node_4_1625056032340",
+      "previous_sibling": "node_6_1625055917237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/person-office-worker.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "المهندس الصناعي/مهندس النظم مسؤول عن إدارة الفريق ومراجعة مهام المهندسين في المسارات الأخرى، نقدر نقول عنه \"مدير مشروع\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number:5",
+      "dialog_node": "node_4_1625056112747",
+      "previous_sibling": "node_4_1625056032340"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "@الشكر:تسلم",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1625056678348",
+      "previous_sibling": "node_3_1625060432823"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054914931",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_4_1625058112429",
+      "previous_sibling": "node_8_1625058088555"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056032340",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_4_1625058441769",
+      "previous_sibling": "node_1_1625058420332"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625059603871"
+      },
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_4_1625059862457",
+      "previous_sibling": "node_8_1625059775664"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625059603871"
+      },
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_4_1625059926678",
+      "previous_sibling": "node_4_1625059862457"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625059603871"
+      },
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_4_1625059979580",
+      "previous_sibling": "node_4_1625059926678"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625055271360",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_5_1625055873337",
+      "previous_sibling": "node_9_1625055853731"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054882256",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_5_1625057979467",
+      "previous_sibling": "node_2_1625057717514"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اختار من 1-4، اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625053453830",
+      "conditions": "@sys-number > 4",
+      "dialog_node": "node_5_1625059603871",
+      "previous_sibling": "node_9_1625059239458"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_5_1625059726321"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625056032340"
+      },
+      "conditions": "@sys-number:4",
+      "dialog_node": "node_5_1625060137326",
+      "previous_sibling": "node_1_1625060105011"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1625059173828",
+      "dialog_node": "node_5_1625070462863",
+      "previous_sibling": "node_3_1625070458650"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "أهلين وسهلين"
+              },
+              {
+                "text": "هلا فيك"
+              },
+              {
+                "text": "ياهلا حياك الله"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "#ترحيب",
+      "dialog_node": "node_6_1625005970360",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625054914931",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_6_1625055030670"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1625055194162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_6_1625055347075",
+      "previous_sibling": "node_7_1625055319965"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/48/000000/man-technologyst.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "الخبير التقني، هو المسؤول عن واجهات التحكم بالروبوتات وربطها في قواعد البيانات، يعني شغله كله على السوفت وير، مثل الصفحة اللي شايفينها الحين.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "هذي الواجهات تسمح لنا نتحكم في الروبوت عن بعد، حتى لو كنت في شرق الكرة الأرضية والا غربها، لا تستغرب تقدر! كل اللي تحتاجه اتصال بالأنترنت!.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "لو عندك فضول كيف تشتغل هالصفحة، شوف هالروابط:\n"
+              },
+              {
+                "text": "https://github.com/iiberu/Robot-Arm-Control-Interface\nhttps://github.com/iiberu/Robot-base-control-panel"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": " اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number:3",
+      "dialog_node": "node_6_1625055917237",
+      "previous_sibling": "node_4_1625055271360"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مابيننا يالغالي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "@الأسف:آسف",
+      "dialog_node": "node_6_1625057255576",
+      "previous_sibling": "node_7_1625057215161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625056290774"
+      },
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_6_1625058736338",
+      "previous_sibling": "node_9_1625058714552"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625056112747"
+      },
+      "conditions": "@sys-number:5",
+      "dialog_node": "node_6_1625060162345",
+      "previous_sibling": "node_5_1625060137326"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وعليكم السلام"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "#ترحيب_وسلام",
+      "dialog_node": "node_7_1625006000315",
+      "previous_sibling": "node_6_1625005970360"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1625055194162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_7_1625055319965"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اختار من من 1-5، اكتب \"مسارات\" للرجوع إلى قائمة المسارات الرئيسية، او اكتب \"0\" للرجوع إلى قائمة التدريب الرئيسية."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625055057176",
+      "conditions": "@sys-number > 5",
+      "dialog_node": "node_7_1625056290774",
+      "previous_sibling": "node_4_1625056112747"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_7_1625057215161",
+      "previous_sibling": "node_1_1625057168930"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054882256",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_7_1625058014023",
+      "previous_sibling": "node_5_1625057979467"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625055917237",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_7_1625058369061",
+      "previous_sibling": "node_8_1625058332673"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056032340",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_7_1625058461115",
+      "previous_sibling": "node_4_1625058441769"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ايش حاب تعرف عن البرنامج التدريبي؟\nاختار رقم:\n1. تعريف بالتدريب\n2. مسارات التدريب\n3. آلية التدريب والحضور\n4. عن الشركة\nأو اكتب 0 للرجوع إلى القائمة الرئيسية"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "#موافقة",
+      "dialog_node": "node_8_1625053453830"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625056112747",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_8_1625056167886",
+      "previous_sibling": "node_9_1625056148660"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054914931",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_8_1625058065009",
+      "previous_sibling": "node_6_1625055030670"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625054914931",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_8_1625058088555",
+      "previous_sibling": "node_8_1625058065009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625055271360",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_8_1625058281873",
+      "previous_sibling": "node_9_1625058254837"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625055917237",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_8_1625058332673",
+      "previous_sibling": "node_10_1625055998745"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "العفو"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625055917237",
+      "conditions": "@الشكر:شكرا",
+      "dialog_node": "node_8_1625058389389",
+      "previous_sibling": "node_7_1625058369061"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056112747",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_8_1625058482524",
+      "previous_sibling": "node_8_1625056167886"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مابيننا يالغالي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/handshake-light-skin-tone.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625059603871"
+      },
+      "conditions": "@الأسف:آسف",
+      "dialog_node": "node_8_1625059775664",
+      "previous_sibling": "node_5_1625059726321"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625055271360"
+      },
+      "conditions": "@sys-number:2",
+      "dialog_node": "node_8_1625060077580",
+      "previous_sibling": "node_9_1625060047685"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1625059239458"
+      },
+      "conditions": "@sys-number:4",
+      "dialog_node": "node_8_1625060389934",
+      "previous_sibling": "node_2_1625060371657"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "طيب على راحتك يالغالي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "#رفض",
+      "dialog_node": "node_8_1625060830212",
+      "previous_sibling": "node_8_1625053453830"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1625059115439",
+      "dialog_node": "node_8_1625070453372"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625055271360",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_9_1625055853731"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625056032340",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_9_1625056062651"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1625056112747",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625053453830"
+      },
+      "conditions": "@sys-number:0",
+      "dialog_node": "node_9_1625056148660"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@مسارات:مسارات",
+      "dialog_node": "node_9_1625056576834",
+      "previous_sibling": "node_2_1625056554593"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625055271360",
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_9_1625058254837",
+      "previous_sibling": "node_5_1625055873337"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1625056112747",
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_9_1625058520635",
+      "previous_sibling": "node_8_1625058482524"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يسلمك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625056290774"
+      },
+      "conditions": "@الشكر:تسلم",
+      "dialog_node": "node_9_1625058683302",
+      "previous_sibling": "node_1_1625058597109"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "الله يعافيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/tulip-emoji.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625056290774"
+      },
+      "conditions": "@الشكر:(يعطيك العافية)",
+      "dialog_node": "node_9_1625058714552",
+      "previous_sibling": "node_9_1625058683302"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "عن الشركة:"
+              },
+              {
+                "text": "شركة الأساليب الذكية هي شركة سعودية متخصصة في مجال الروبوت والذكاء الاصطناعي، مصنفة لدى مجلة فوربس العالمية كأحد أكثر الشركات ابداعا ورشحت من قبل منشآت كأحد أكثر الشركات ابتكارًا.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625053453830",
+      "conditions": "@sys-number:4",
+      "dialog_node": "node_9_1625059239458",
+      "previous_sibling": "node_3_1625058983431"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1625056290774",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625055194162"
+      },
+      "conditions": "@sys-number:1",
+      "dialog_node": "node_9_1625060047685",
+      "previous_sibling": "node_6_1625058736338"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625054914931"
+      },
+      "conditions": "@sys-number:1",
+      "dialog_node": "node_9_1625060293008",
+      "previous_sibling": "node_4_1625059979580"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625059603871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625055057176"
+      },
+      "conditions": "@sys-number:2",
+      "dialog_node": "node_9_1625060350146",
+      "previous_sibling": "node_9_1625060293008"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1625059115439",
+      "dialog_node": "node_9_1625070455846",
+      "previous_sibling": "node_8_1625070453372"
+    },
+    {
+      "type": "standard",
+      "title": "أي شيء آخر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مافهمت عليك، حاول تعيد الصياغة"
+              },
+              {
+                "text": "تقدر تعيد صياغة كلامك؟ للأمانة مافهمت"
+              },
+              {
+                "text": "مافهمت قصدك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/grinning-face-with-sweat--v2.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "مرحبا"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "أي شيء آخر",
+      "previous_sibling": "node_10_1625057437120",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://img.icons8.com/emoji/50/000000/waving-hand-light-skin-tone.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "ياهلا وغلا.. أدري فيك مو فاهم هالصفحة، طيب ايش رأيك اعرفك على برنامجنا التدريبي عشان تفهم اللي صاير أكثر؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "مرحبا"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "التدريب عندنا عبارة عن صناعة وبرمجة روبوتات من الألف إلى الياء"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "تحدث",
+  "language": "ar",
+  "description": ""
+}
