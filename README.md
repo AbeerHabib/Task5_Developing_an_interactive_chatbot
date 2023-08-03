@@ -1,5 +1,4 @@
-# IBM_Watson_Assistant_Chatbot
-Creating a chatbot that interacts with the user and asks him to rate his performance.
+# Developing an interactive chatbot using IBM Watson Assistant technology
 
 لقد قمت بإنشاء روبوت دردشة يقوم بالتفاعل مع المستخدم، وإذا قام المستخدم بتوديعه يطلب منه تقييم أدائه على النحو التالي: راضي جدًا، راضي، مستاء، مستاء جدًا.
 
